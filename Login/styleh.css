@@ -1,0 +1,38 @@
+body {
+    min-height: 100vh;
+   background-color: #f3efef;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 2500px;
+    height:600px;
+
+    padding: 70px;
+    background-color: #ebe7e7;
+    
+    
+  }
+
+  .img{
+    background-image: url("login2.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: left
+    ;
+    
+  }
+  h1 {
+    padding-top: 18px;
+    text-align: left;
+    font-size: 50px;
+
+  }
+ 
+  
+ 
